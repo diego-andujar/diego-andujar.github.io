@@ -11,11 +11,11 @@
             <li><a href="#">contact</a></li>
         </ul>
 
-
-        <!-- Slideshow container -->
+        <!--  -->
+       
 <div class="slideshow-container">
 
-    <!-- Full-width images with number and caption text -->
+    
     <div  class="mySlides fade">
       <img src="C:\Users\Usuario\Desktop\diego-andujar.github.io\porshe.jpg" style="width:100%" height="100%">
     </div>
@@ -34,13 +34,13 @@
   </div>
   <br>
   
-  <!-- The dots/circles -->
+  
   <div style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
-  <!-- Slideshow container -->
+  <!--  -->
         
 
         <div class="aboutme">Nombre: <ul><ol>Diego Alberto Andujar Ron</ol></ul></div>
@@ -71,6 +71,8 @@
             </ul>
         </div>
 
+    <!--  -->
+
         <div class="expe"><h4>Hechos por mi gran persona</h4> 
             <ul>
                 <li>Battleship</li>
@@ -95,7 +97,36 @@
             <div>Febrero 2019</div>
             <div>No hay link</div>
             <div><img width="600" height="450" src="C:\Users\Usuario\Desktop\diego-andujar.github.io\240z.jpg" alt="un auto bello bello"> </a></div>
-        </div>      
+        </div> 
+        
+        <div class="contac">
+            <h4>Contact me</h4>
+            <div>Si me quieres conocer ;)</div>
+            <ul>
+                <li><a href="https://www.instagram.com/asaprocky/?hl=es" target="_blank">instagram (el mio no)</a></li>
+                <li><a href="https://twitter.com/asvpxrocky?lang=es" target="_blank">Twitter (tampoco es el mio)</a></li>
+                <li><a href="https://wa.me/584129009917" target="_blank">si soy yo ;)</a></li>
+            </ul>
+        </div>
+
+        <!-- -->
+
+        <form action="#" target="" method="get" name="formDatosPersonales">
+            <ul>
+                <li><label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required/></li>
+                <li><label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido" required/></li>
+                <li><label for="email" >Email</label>
+                    <input type="email" name="email" id="email" placeholder="email" required /></li>
+                <li><label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea> 
+                    </li>
+                <button onclick="enviar()">enviar</button>
+            </ul>
+        </form>
+        
+
     </body>
 </html>
 <script src="main.js"></script>
