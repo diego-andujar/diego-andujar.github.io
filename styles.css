@@ -34,3 +34,18 @@ body{
 .aboutme ul ol{
     color: rgb(212, 203, 114);
 }
+
+.expe{
+    background: burlywood;
+    text-align: center;
+}
+
+.expe h4{
+    background: cornsilk;
+    margin: auto;
+    max-width: max-content;
+    max-height: max-content;
+}
+.expe ul li{
+    background: cornsilk;
+}
