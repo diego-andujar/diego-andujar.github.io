@@ -23,3 +23,14 @@ body{
 .Navbar li a:hover{
     background: burlywood;
 }
+
+.aboutme{
+    background: beige;
+    width: 90%;
+    margin: auto;
+    max-width: 1334px;
+    height: 105px;
+}
+.aboutme ul ol{
+    color: rgb(212, 203, 114);
+}
