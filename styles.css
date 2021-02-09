@@ -1,1 +1,25 @@
-estilos
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+}
+.Navbar{
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: 90%
+    max-width: 1334px;
+    margin: auto;
+}
+.Navbar li a{
+     text-decoration: none;
+     color: white;
+     padding: 20px;
+     display: block;
+}
+.Navbar li{
+    display: inline-block;
+    text-align: center;
+}
+.Navbar li a:hover{
+    background: burlywood;
+}
