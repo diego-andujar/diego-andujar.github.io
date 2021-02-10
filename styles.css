@@ -38,6 +38,7 @@ body{
 .expe{
     background: burlywood;
     text-align: center;
+    padding: auto;
 }
 
 .expe h4{
@@ -62,24 +63,26 @@ body{
 }
 
 .contac{
-    background-color:rgb(255, 200, 128);
+    background-color:rgba(255, 200, 128);
     color: black;
-    border-radius:10px;
+    border-radius:10px 10px 0 0;
     padding: 16px;
     width: 600px;
     margin: 0 auto;
+    margin-top: 20px;
     text-align: center;
 }
 
 .contac ul {
-    text-align: center;
+    text-align: left;
 }
+
 *{box-sizing:border-box;}
 
 form{
-	width:300px;
+	width: 600px;
 	padding:16px;
-	border-radius:10px;
+	border-radius:0 0 10px 10px;
 	margin:auto;
 	background-color:rgb(255, 200, 128);
 }
