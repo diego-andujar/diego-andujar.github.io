@@ -30,3 +30,4 @@ function showSlides(n) {
 function enviar(){
     let mensaje = alert("mensaje enviado")
 }
+
