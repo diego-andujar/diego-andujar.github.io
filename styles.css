@@ -62,8 +62,10 @@ body{
 }
 
 .contac{
-    background: burlywood;
+    background-color:rgb(255, 200, 128);
     color: black;
+    border-radius:10px;
+    padding: 16px;
     width: 300px;
     text-align: center;
 }
@@ -75,7 +77,7 @@ form{
 	padding:16px;
 	border-radius:10px;
 	margin:auto;
-	background-color:#ccc;
+	background-color:rgb(255, 200, 128);
 }
 
 form label{
@@ -87,7 +89,7 @@ form label{
 form input[type="text"],
 form input[type="email"]{
 	width:180px;
-	padding:3px 10px;
+	padding:3px ;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
 	background-color:#f6f6f6;
