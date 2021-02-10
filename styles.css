@@ -66,10 +66,14 @@ body{
     color: black;
     border-radius:10px;
     padding: 16px;
-    width: 300px;
+    width: 600px;
+    margin: 0 auto;
     text-align: center;
 }
 
+.contac ul {
+    text-align: center;
+}
 *{box-sizing:border-box;}
 
 form{
